@@ -39,31 +39,30 @@ You can watch the gameplay demo video here:
 The **Minimax Algorithm** is a decision-making algorithm for turn-based games like Tic Tac Toe.  
 It tries to **maximize** the player's score and **minimize** the opponent's score.
 
-
-         Current Board
-              ↓
-      ┌────────────────┐
-      │ Generate all    │
-      │ possible moves  │
-      └────────────────┘
-              ↓
-      ┌────────────────┐
-      │ Simulate each   │
-      │ move recursively│
-      └────────────────┘
-              ↓
- ┌────────────┴────────────┐
- │ Opponent's turn: choose │
- │ move that minimizes     │
- │ player's score          │
- └────────────┬────────────┘
-              ↓
-   Repeat until game over
-              ↓
-        Assign score:
-        +10 → Win
-         0  → Draw
-        -10 → Loss
+Current Board
+↓
+┌────────────────┐
+│ Generate all │
+│ possible moves │
+└────────────────┘
+↓
+┌────────────────┐
+│ Simulate each │
+│ move recursively│
+└────────────────┘
+↓
+┌────────────┴────────────┐
+│ Opponent's turn: choose │
+│ move that minimizes │
+│ player's score │
+└────────────┬────────────┘
+↓
+Repeat until game over
+↓
+Assign score:
++10 → Win
+0 → Draw
+-10 → Loss
 
 In **Hard** mode, the AI will always choose the move with the best possible outcome  
 by evaluating all future moves using Minimax (with Alpha-Beta Pruning to optimize performance).
