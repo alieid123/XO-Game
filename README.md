@@ -40,7 +40,7 @@ The **Minimax Algorithm** is a decision-making algorithm for turn-based games li
 It tries to **maximize** the player's score and **minimize** the opponent's score.
 
 
-        Current Board
+         Current Board
               ↓
       ┌────────────────┐
       │ Generate all    │
@@ -60,11 +60,10 @@ It tries to **maximize** the player's score and **minimize** the opponent's scor
               ↓
    Repeat until game over
               ↓
-      Assign score:
-      +10 → Win
-       0  → Draw
-      -10 → Loss
-
+        Assign score:
+        +10 → Win
+         0  → Draw
+        -10 → Loss
 
 In **Hard** mode, the AI will always choose the move with the best possible outcome  
 by evaluating all future moves using Minimax (with Alpha-Beta Pruning to optimize performance).
