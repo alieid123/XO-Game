@@ -22,15 +22,7 @@ The AI uses the **Minimax Algorithm** with optional **Alpha-Beta Pruning** to ma
 - **Windows Forms**
 - **Object-Oriented Programming (OOP)**
 - **Minimax Algorithm** with Alpha-Beta Pruning (for AI logic)
-
----
-
-## 🎥 Demo Video
-You can watch the gameplay demo video here:  
-[🎬 Click to play demo](videos/demo.mp4)
-
-*(The video file is included in the repository under `videos/`)*
-
+- 
 ---
 
 ## 🎯 How the Minimax Algorithm Works
